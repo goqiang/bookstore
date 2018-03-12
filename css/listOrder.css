@@ -1,0 +1,50 @@
+table{
+    margin: 20px auto;
+    text-align: center;
+}
+tr,th{
+    text-align: center;
+}
+td{
+    width: 140px;
+    padding:7px;
+}
+tr.thead>th{
+    font-size:20px;
+    font-weight:bold;
+    background-color: #ff2878;
+    height: 40px;
+}
+tr>td.orderID{
+    font-size:20px;
+    font-weight:bold;
+    text-align: left;
+    margin-left: 30px;
+}
+tr>td.orderID>a{
+    text-decoration: none;
+    color: #ff2878;
+}
+tr>td.imgs{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border:none;
+}
+tr>td.imgs>a>img{
+    width: 60px;
+    height: 60px;
+}
+section p{
+    margin-right:210px;
+    text-align: right;
+    font-size: 20px;
+}
+section p.page-nav{
+    text-align:center;
+    font-size: 20px;
+}
+td#removeOrder a{
+    color:blue;
+}

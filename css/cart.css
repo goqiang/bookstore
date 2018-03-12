@@ -1,0 +1,103 @@
+ #cart{
+  width:95%;
+  min-height:480px;
+  margin:10px auto;  
+  } 
+ /*�����ǵ�����빺�ﳵ��ҳ���css����*/
+ p.addInfo{
+  margin-top:100px;
+  color:green;   
+  font-size:16pt;   
+  text-align:center;
+ } 
+a.list-cart{
+  padding:10px; 
+  border-radius:5px;
+  font-weight:900;
+  text-decoration:none;
+  color:white;   
+  background-color:red;     
+}
+a.list-cart:hover{
+  background-color:brown;
+}
+a.continue-buy{
+  font-size:14pt;  
+}
+a.continue-buy:hover{
+  color:red;  
+  font-weight:900;
+}
+
+/*�����ǵ���ҵĹ��ﳵ��ҳ���css����*/
+#cart > p.listInfo{
+  font-size:16pt;
+  color:#d00;
+  text-align:center;
+  margin:5px auto;
+}
+#cart > table{
+  width:100%;
+  background-color:#eaebee;
+  border-collapse:collapse;  
+  margin:auto;
+}
+ tr.thead{
+   background-color:#ff2878;
+ }
+ th{
+     font-weight:bold;
+ }
+ th,td{
+  font-size:12.8pt; 
+  text-align:center;
+  padding:6px;
+  width:16.5%;
+ }
+ #cart td.bookName{
+  text-align:left;
+ }
+ td > img{  
+  height:60px;
+ }
+ span.price{
+   color:red;   
+ } 
+ td.changeCart>input{
+   text-align:center;
+   font-size:13.8pt;
+   border:1px solid black;
+   padding:2px;   
+ } 
+ td.subtotal{
+   color:brown;
+   font-weight:600;
+ } 
+ p.total-empty-checkout{
+ text-align:right;
+ line-height:2;
+ margin:1em 2em;
+ }
+ span.counts,span.total{
+   color:red;
+   font-weight:700;
+ }
+ p > a.checkout{
+   font-size:14pt;  
+   color:white;
+   background-color:red;
+   font-weight:700;   
+   border-radius:10px;   
+   padding:5px 20px;
+   margin-left:2em;
+ }
+ p > a.checkout:hover{
+   background-color:brown;
+   text-decoration:none;
+}
+input[type="number"]{
+     width:100px;
+     height:30px;
+     border-radius: 5px;
+     padding:0;
+ }

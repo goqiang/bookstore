@@ -1,0 +1,67 @@
+p.info{
+  color:red;
+  text-align:right;
+  font-size:14pt;
+ }
+
+.book-list{ 
+ display:flex;
+ align-items:center;
+ padding:10px;
+ margin:2px;
+}
+.book-list:hover{
+ background-color:#FFFFCC;	
+}
+.book-list > a > img{
+ width:150px;
+ margin-right:2em;
+ border:1px dashed green;
+ }
+ .book-list > p{
+min-width:600px;
+text-indent:0;
+line-height:1.3;
+border:1px dashed green;
+}
+.book-list > p > a.book-name{
+font-size:16pt;
+color:darkblue;
+font-family:Verdana,'����';
+}
+.book-list > p > a.book-name:hover{
+color:red;
+text-decoration:underline;	
+}
+.book-list > p > span.site-price{
+color:red; 
+font-size:14.8pt;
+}
+.book-list > p > a.cart{
+padding:2px 10px;
+margin-left:500px;
+border-radius:5px;
+color:white;
+background-color:red;
+font-size:14pt;
+font-family:����;
+}
+.book-list > p > a.cart:hover{
+ background-color:crimson;
+ text-decoration:none;
+}
+
+/*section �ײ���������ʽ*/
+section  > .page-nav{ 
+text-align:center;
+/*border:1px solid red;*/
+}
+section > .page-nav > a,section > .page-nav > span{
+margin: 5px 1em;
+}
+section > .page-nav > span{
+font-weight:200;
+}
+section > .page-nav > a:hover{  
+  color:red;  
+}

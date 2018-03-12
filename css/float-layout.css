@@ -1,0 +1,27 @@
+/* 布局样式*/
+body{
+min-width:1000px;
+overflow-x:hidden;
+}
+header,#container,nav,section,footer{   
+ padding:2px; 
+ margin:2px; 
+/*border:1px solid red;*/
+}
+header,#container,footer{
+margin:2px auto;
+width:95%;
+}
+#container{ 
+ overflow:hidden; 
+}
+nav{
+ float:left;
+ /*float:right;*/
+ width:200px;
+ margin-top:15px;  
+}
+section{
+margin-left:210px;
+/*margin-right:210px;*/
+}

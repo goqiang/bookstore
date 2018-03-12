@@ -1,0 +1,29 @@
+table{
+    margin: 5px auto;
+    font-size: 20px;
+
+}
+tr>th{
+    background-color: lightgrey;
+}
+td{
+    width:150px;
+}
+tr>td.left-td,tr>td.product-list,tr>th,table>caption{
+    font-weight: bold;
+}
+tr>td.left-td>span{
+    font-size:18px;
+    font-weight:normal;
+}
+td>a>img{
+    width: 60px;
+    height:60px;
+}
+td.total{
+    text-align: right;
+}
+td.total>span{
+    color: red;
+}
+

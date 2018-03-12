@@ -1,0 +1,43 @@
+.cover{
+ float:left;
+ text-align:center;
+ margin:20px 100px;
+}
+.cover img{	
+ width:280px;
+}
+.book-info{
+width:420px;
+margin-top:10px;
+}
+.book-info  tr{
+ height:30px; 
+}
+.book-name,.site-price{
+ font-size:16pt;
+ font-weight:700;
+}
+.book-name{
+color:darkblue;
+}
+.site-price{
+color:red;
+}
+a.cart{ 
+padding:5px;
+color:white;
+background-color:red;
+font-family:ºÚÌå;
+border-radius:2px;
+}
+a.cart:hover{
+background-color:crimson;
+}
+.topic{ 
+ line-height:2;
+ margin:20px 120px; 
+}
+.topic > h2{    	 
+ font-size:16pt; 
+ text-align:center; 
+}

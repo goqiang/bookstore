@@ -1,0 +1,26 @@
+/* 布局样式*/
+body{
+min-width:1200px;
+overflow-x:hidden;
+}
+header,#container,nav,section,footer{   
+ padding:2px; 
+ margin:2px;
+}
+header,#container,footer{
+width:95%;
+border:1px solid red;
+margin:2px auto;
+}
+#container{ 
+ display:flex;
+}
+nav{
+ border:1px solid green;
+ margin-top:15px;
+ flex:0 0 200px; 
+}
+section{
+border:1px solid green;
+flex:1 1 auto;
+}

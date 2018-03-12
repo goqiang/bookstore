@@ -1,0 +1,56 @@
+article{
+display:flex;
+flex-flow:row wrap;
+justify-content:center;
+align-items:center;
+align-content:space-around;
+border:2px solid green;
+}
+h2{
+flex:0 0 80%;
+color:darkblue;
+text-align:center;
+font-size:16pt;
+font-weight:700;
+margin:20px;
+border:1px solid blue;
+}
+img{	
+ flex:0 0 280px;
+ margin-right:120px;
+ border:1px solid blue;
+}
+table{
+border:1px solid blue;
+}
+tr{  
+ height:30px; 
+}
+td{
+padding:5px;
+}
+.site-price{
+font-size:16pt;
+font-weight:700;
+color:red;
+}
+a.cart{
+margin:20px 300px;
+padding:8px;
+border-radius:2px;
+font-family:ºÚÌå;
+color:white;
+background-color:red;
+border:2px solid blue;
+}
+a.cart:hover{
+background-color:crimson;
+}
+article > p
+{  
+ flex:0 0 90%;
+ line-height:1.5;
+ margin-left:2em;
+ margin-right:2em;
+ border:1px solid blue;
+}
